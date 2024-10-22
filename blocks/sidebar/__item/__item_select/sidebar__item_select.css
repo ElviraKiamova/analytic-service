@@ -1,11 +1,11 @@
 .sidebar__item_select {
   position: relative;
-  font-weight: 500;
+  flex-direction: column;
 }
 
 .sidebar__item_select:after {
   content: '';
-  background-image: url("/images/open-list.svg");
+  background-image: url("/images/select.svg");
   background-size: 6px 4px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -14,4 +14,12 @@
   right: 8px;
   width: 16px;
   height: 16px;
+}
+
+.sidebar__list_positions .sidebar__item {
+   margin-bottom: 0;
+}
+
+.sidebar__list_positions .sidebar__item a {
+  padding: 13px 0 6px 44px;
 }

@@ -16,3 +16,4 @@
 @import url("../blocks/sidebar/__list/sidebar__list.css");
 @import url("../blocks/sidebar/__item/sidebar__item.css");
 @import url("../blocks/sidebar/__item/__item_select/sidebar__item_select.css");
+@import url("../blocks/sidebar/__item/__item_bold/sidebar__item_bold.css");
