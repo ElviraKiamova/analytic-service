@@ -1,2 +1,11 @@
 @import url("../styles/normalize.css");
 
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__btn-profile/header__btn-profile.css");
+@import url("../blocks/header/__block/header__block.css");
+@import url("../blocks/header/__select/header__select.css");
+@import url("../blocks/header/__btn-update/header__btn-update.css");
+@import url("../blocks/header/__text-update/header__text-update.css");
+@import url("../blocks/header/__btn-new-project/header__btn-new-project.css");

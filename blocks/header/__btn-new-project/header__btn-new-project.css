@@ -1,0 +1,18 @@
+.header__btn-new-project {
+  width: 155px;
+  height: 32px;
+  display: flex;
+  justify-content: end;
+  padding: 8px 16px;
+  border: none; 
+  cursor: pointer;
+  color: #0076F5;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  background-image: url("/images/new-project.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: calc(0% + 22px) center; 
+}
+
