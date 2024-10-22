@@ -4,5 +4,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1123px;
+  max-height: 32px;
   padding: 20px;
+  grid-area: B;
 }

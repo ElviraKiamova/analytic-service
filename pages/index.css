@@ -9,3 +9,10 @@
 @import url("../blocks/header/__btn-update/header__btn-update.css");
 @import url("../blocks/header/__text-update/header__text-update.css");
 @import url("../blocks/header/__btn-new-project/header__btn-new-project.css");
+
+@import url("../blocks/sidebar/sidebar.css");
+@import url("../blocks/sidebar/__logo/sidebar__logo.css");
+@import url("../blocks/sidebar/__navigation/sidebar__navigation.css");
+@import url("../blocks/sidebar/__list/sidebar__list.css");
+@import url("../blocks/sidebar/__item/sidebar__item.css");
+@import url("../blocks/sidebar/__item/__item_select/sidebar__item_select.css");

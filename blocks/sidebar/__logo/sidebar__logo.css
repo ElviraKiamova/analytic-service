@@ -1,0 +1,26 @@
+.sidebar__logo {
+  position: relative;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.sidebar__logo:after {
+  content: '';
+  background-image: url("/images/arrow_back.svg");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar__logo a {
+  display: block;
+  color:#404040;
+  text-decoration: none;
+}
