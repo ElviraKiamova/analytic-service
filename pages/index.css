@@ -4,44 +4,44 @@
 @import url("../blocks/content/content.css");
 
 @import url("../blocks/header/header.css");
-@import url("../blocks/header/__btn-profile/header__btn-profile.css");
-@import url("../blocks/header/__block/header__block.css");
-@import url("../blocks/header/__select/header__select.css");
-@import url("../blocks/header/__btn-update/header__btn-update.css");
-@import url("../blocks/header/__text-update/header__text-update.css");
-@import url("../blocks/header/__btn-new-project/header__btn-new-project.css");
+@import url("../blocks/header/header__btn-profile/header__btn-profile.css");
+@import url("../blocks/header/header__block/header__block.css");
+@import url("../blocks/header/header__select/header__select.css");
+@import url("../blocks/header/header__btn-update/header__btn-update.css");
+@import url("../blocks/header/header__text-update/header__text-update.css");
+@import url("../blocks/header/header__btn-new-project/header__btn-new-project.css");
 
 @import url("../blocks/sidebar/sidebar.css");
-@import url("../blocks/sidebar/__logo/sidebar__logo.css");
-@import url("../blocks/sidebar/__navigation/sidebar__navigation.css");
-@import url("../blocks/sidebar/__list/sidebar__list.css");
-@import url("../blocks/sidebar/__item/sidebar__item.css");
-@import url("../blocks/sidebar/__item/__item_select/sidebar__item_select.css");
-@import url("../blocks/sidebar/__item/__item_bold/sidebar__item_bold.css");
-@import url("../blocks/sidebar/__item/__select-img/sidebar__select-img.css");
+@import url("../blocks/sidebar/sidebar__logo/sidebar__logo.css");
+@import url("../blocks/sidebar/sidebar__navigation/sidebar__navigation.css");
+@import url("../blocks/sidebar/sidebar__list/sidebar__list.css");
+@import url("../blocks/sidebar/sidebar__item/sidebar__item.css");
+@import url("../blocks/sidebar/sidebar__item/sidebar__item_select/sidebar__item_select.css");
+@import url("../blocks/sidebar/sidebar__item/sidebar__item_bold/sidebar__item_bold.css");
+@import url("../blocks/sidebar/sidebar__item/sidebar__select-img/sidebar__select-img.css");
 
 @import url("../blocks/catalog/catalog.css");
-@import url("../blocks/catalog/__container/catalog__container.css");
-@import url("../blocks/catalog/__input-calendar/catalog__input-calendar.css");
-@import url("../blocks/catalog/__input-search/catalog__input-search.css");
-@import url("../blocks/catalog/__btn-file-format/catalog__btn-file-format.css");
-@import url("../blocks/catalog/__btn-settings/catalog__btn-settings.css");
-@import url("../blocks/catalog/__btn-sorting/catalog__btn-sorting.css");
-@import url("../blocks/catalog/__wrapper-calendar/catalog__wrapper-calendar.css");
-@import url("../blocks/catalog/__select-calendar/catalog__select-calendar.css");
+@import url("../blocks/catalog/catalog__container/catalog__container.css");
+@import url("../blocks/catalog/catalog__input-calendar/catalog__input-calendar.css");
+@import url("../blocks/catalog/catalog__input-search/catalog__input-search.css");
+@import url("../blocks/catalog/catalog__btn-file-format/catalog__btn-file-format.css");
+@import url("../blocks/catalog/catalog__btn-settings/catalog__btn-settings.css");
+@import url("../blocks/catalog/catalog__btn-sorting/catalog__btn-sorting.css");
+@import url("../blocks/catalog/catalog__wrapper-calendar/catalog__wrapper-calendar.css");
+@import url("../blocks/catalog/catalog__select-calendar/catalog__select-calendar.css");
 
 
 @import url("../blocks/calendar/calendar.css");
-@import url("../blocks/calendar/__days/calendar__days.css");
-@import url("../blocks/calendar/__list/calendar__list.css");
-@import url("../blocks/calendar/__item/calendar__item.css");
-@import url("../blocks/calendar/__btn/calendar__btn.css");
-@import url("../blocks/calendar/__btn-apply/calendar__btn-apply.css");
-@import url("../blocks/calendar/__btn-cancel/calendar__btn-cancel.css");
-@import url("../blocks/calendar/__choose-dates/calendar__choose-dates.css");
-@import url("../blocks/calendar/__month/calendar__month.css");
-@import url("../blocks/calendar/__header/calendar__header.css");
-@import url("../blocks/calendar/__weekday/calendar__weekday.css");
+@import url("../blocks/calendar/calendar__days/calendar__days.css");
+@import url("../blocks/calendar/calendar__list/calendar__list.css");
+@import url("../blocks/calendar/calendar__item/calendar__item.css");
+@import url("../blocks/calendar/calendar__btn/calendar__btn.css");
+@import url("../blocks/calendar/calendar__btn-apply/calendar__btn-apply.css");
+@import url("../blocks/calendar/calendar__btn-cancel/calendar__btn-cancel.css");
+@import url("../blocks/calendar/calendar__choose-dates/calendar__choose-dates.css");
+@import url("../blocks/calendar/calendar__month/calendar__month.css");
+@import url("../blocks/calendar/calendar__header/calendar__header.css");
+@import url("../blocks/calendar/calendar__weekday/calendar__weekday.css");
 
 @import url("../blocks/range/range.css");
 @import url("../blocks/selected/selected.css");
