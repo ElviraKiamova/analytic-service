@@ -9,6 +9,8 @@
     <title>Analytic Service</title>
     <link href="https://fonts.cdnfonts.com/css/pt-root-ui" rel="stylesheet">
     <link rel="stylesheet" href="./pages/index.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> -->
   </head>
 
   <body>
@@ -27,7 +29,7 @@
         <nav class="sidebar__navigation" aria-label="main-sections">
           <ul class="sidebar__list">
               <li class="sidebar__item analytics after"><a class="sidebar__after" href="#">Аналитика проекта</a></li>
-              <li class="sidebar__item sidebar__item_select _wrench">
+              <li class="sidebar__item sidebar__item_select wrench">
                 <a class="sidebar__after" href="#">Позиции из Я.Вебмастера</a>
                 <ul class="sidebar__list sidebar__list_positions">
                   <li class="sidebar__item sidebar__item_positions"><a href="#">Запросы Я.Вебмастер</a></li>
@@ -44,7 +46,15 @@
           <div class="catalog__container">
             <input class="catalog__input-search" type="text" placeholder="Начните вводить слово">
             <div class="catalog__wrapper-calendar">
-              <input class="catalog__input-calendar" type="text" placeholder="01.10.2024 - 01.11.2024">
+              <input id="flatpickr" class="catalog__input-calendar" type="text" placeholder="01.10.2024 - 01.11.2024">
+                <!-- <script>
+                  flatpickr("#flatpickr", {
+                      mode: "multiple",
+                      dateFormat: "Y-m-d",
+                      inline: true,
+                      showMonths: 3
+                  });
+                </script> -->
               <span class="catalog__select-calendar"></span>
             </div>
             <button class="catalog__btn-file-format" type="button" aria-label="file-format"></button>
@@ -54,6 +64,230 @@
         </section>
       </main>
     </div>
+
+    <template id="calendar">
+      <div class="calendar">
+        <div class="calendar__days">
+          <ul class="calendar__list">
+            <li class="calendar__item">Сегодня</li>
+            <li class="calendar__item">Вчера</li>
+            <li class="calendar__item">Последние 7 дней</li>
+            <li class="calendar__item">Последние 30 дней</li>
+            <li class="calendar__item">Последние 90 дней</li>
+            <li class="calendar__item">От начала работы</li>
+          </ul>
+          <button class="calendar__btn calendar__btn-apply" type="button" aria-label="apply">Применить</button>
+          <button class="calendar__btn calendar__btn-cancel" type="button" aria-label="cancel">Отменить</button>
+        </div>
+        <ul class="calendar__choose-dates">
+          <li class="calendar__month">
+            <table class="calendar__table">
+              <thead>
+                <tr>
+                  <th colspan="7" class="calendar__header">Сентябрь  2024</th>
+                </tr>
+                <tr>
+                  <th class="calendar__weekday">Пн</th>
+                  <th class="calendar__weekday">Вт</th>
+                  <th class="calendar__weekday">Ср</th>
+                  <th class="calendar__weekday">Чт</th>
+                  <th class="calendar__weekday">Пт</th>
+                  <th class="calendar__weekday">Сб</th>
+                  <th class="calendar__weekday">Вс</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                  </tr>
+                  <tr>
+                    <td>30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+              </tbody>
+            </table>
+          </li>
+          <li class="calendar__month">
+            <table class="calendar__table">
+              <thead>
+                <tr>
+                  <th colspan="7" class="calendar__header">Октябрь 2024</th>
+                </tr>
+                <tr>
+                  <th class="calendar__weekday">Пн</th>
+                  <th class="calendar__weekday">Вт</th>
+                  <th class="calendar__weekday">Ср</th>
+                  <th class="calendar__weekday">Чт</th>
+                  <th class="calendar__weekday">Пт</th>
+                  <th class="calendar__weekday">Сб</th>
+                  <th class="calendar__weekday">Вс</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                </tr>
+                <tr>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                  <td>31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li class="calendar__month">
+            <table class="calendar__table">
+              <thead>
+                <tr>
+                  <th colspan="7" class="calendar__header">Ноябрь 2024</th>
+                </tr>
+                <tr>
+                  <th class="calendar__weekday">Пн</th>
+                  <th class="calendar__weekday">Вт</th>
+                  <th class="calendar__weekday">Ср</th>
+                  <th class="calendar__weekday">Чт</th>
+                  <th class="calendar__weekday">Пт</th>
+                  <th class="calendar__weekday">Сб</th>
+                  <th class="calendar__weekday">Вс</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+        </ul>
+      </div>
+    </template>
+
     <script src="./scripts/script.js"></script>
   </body>
 </html>

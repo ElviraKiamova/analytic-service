@@ -1,0 +1,12 @@
+.calendar__choose-dates {
+  display: grid;
+  grid-template-columns: repeat(3, 248px);
+  gap: 16px;
+  margin: 0 0 0 13px;
+  padding: 0;
+  list-style-type: none;
+  color: #404040;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+}

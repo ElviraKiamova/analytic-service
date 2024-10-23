@@ -1,0 +1,22 @@
+.calendar__weekday {
+  width: 33px;
+  height: 33px;
+  
+  text-align: center;
+  color: #BBBBBB;
+  font-weight: 400;
+}
+
+.calendar__table td {
+  width: 42px;
+  height: 31px;
+  color: #404040;
+  text-align: center;
+  cursor: pointer;
+}
+
+.calendar__table td:hover {
+  color: #0076F5;
+  font-weight: 500;
+}
+

@@ -1,4 +1,5 @@
 .content {
+  position: relative;
   grid-area: C;
   max-width: 1484px;
 }

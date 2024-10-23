@@ -1,0 +1,9 @@
+.calendar__header {
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #404040;
+}

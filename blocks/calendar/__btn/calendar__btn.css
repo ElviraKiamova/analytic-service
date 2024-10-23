@@ -1,0 +1,13 @@
+.calendar__btn {
+  width: 105px;
+  height: 32px;
+  margin-right: 24px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0076F5;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  cursor: pointer;
+}

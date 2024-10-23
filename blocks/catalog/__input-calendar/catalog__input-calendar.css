@@ -12,3 +12,7 @@
   line-height: 16.8px;
   cursor: pointer;
 }
+
+.catalog__input-calendar:hover {
+  border: 1px solid #0076F5
+}

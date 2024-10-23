@@ -1,0 +1,15 @@
+.calendar__item {
+  min-height: 33px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: font-weight 0.3s ease;
+}
+
+.calendar__item:last-child {
+  margin-bottom: 0;
+}
+
+.calendar__item:hover {
+  font-weight: 500;
+}
+
