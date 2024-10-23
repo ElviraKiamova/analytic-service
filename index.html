@@ -40,10 +40,18 @@
         </nav>
       </aside>
       <main class="content">
-
         <section class="catalog">
+          <div class="catalog__container">
+            <input class="catalog__input-search" type="text" placeholder="Начните вводить слово">
+            <div class="catalog__wrapper-calendar">
+              <input class="catalog__input-calendar" type="text" placeholder="01.10.2024 - 01.11.2024">
+              <span class="catalog__select-calendar"></span>
+            </div>
+            <button class="catalog__btn-file-format" type="button" aria-label="file-format"></button>
+          </div>
+          <button class="catalog__btn-sorting" type="button" aria-label="sorting">Сбросить сортировку</button>
+          <button class="catalog__btn-settings" type="button" aria-label="settings">Настройки</button>
         </section>
-
       </main>
     </div>
     <script src="./scripts/script.js"></script>

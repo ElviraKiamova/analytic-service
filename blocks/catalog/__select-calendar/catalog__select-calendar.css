@@ -1,0 +1,16 @@
+.catalog__select-calendar {
+  position: relative;
+}
+
+.catalog__select-calendar:after {
+  content: '';
+  background-image: url("/images/select.svg");
+  background-size: 6px 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 3px;
+  right: 32px;
+  width: 16px;
+  height: 16px;
+}

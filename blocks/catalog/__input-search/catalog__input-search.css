@@ -1,0 +1,17 @@
+.catalog__input-search {
+  width: 176px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #E5E5EA;
+  padding: 0 0 0 44px;
+  background: url('/images/magnifier.svg') no-repeat 16px center;
+  background-size: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  cursor: pointer;
+}
+
+.catalog__input-search::placeholder { 
+  color:  #BBBBBB;
+}

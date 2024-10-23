@@ -1,0 +1,23 @@
+.catalog__btn-file-format {
+  position: relative;
+  width: 52px;
+  height: 32px;
+  padding: 0;
+  background: url("/images/file-format.svg") no-repeat 5px center;
+  background-size: 24px 24px;
+  border: none; 
+  cursor: pointer;
+}
+
+.catalog__btn-file-format:after {
+  content: '';
+  width: 52px;
+  height: 32px;
+  background: url('/images/select-blue.svg') no-repeat center;
+  background-size: 6px 4px;
+  position: absolute;
+  top: 7px;
+  right: 3px;
+  width: 16px;
+  height: 16px;
+}

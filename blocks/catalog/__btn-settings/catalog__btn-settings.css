@@ -1,0 +1,13 @@
+.catalog__btn-settings {
+  width: 103px;
+  height: 32px;
+  padding: 0 0 0 20px;
+  border: none;
+  background: url('/images/table_chart.svg') no-repeat 0 center;
+  background-size: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #404040;
+}
+

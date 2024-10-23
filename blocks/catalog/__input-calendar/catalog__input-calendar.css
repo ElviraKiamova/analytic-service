@@ -1,0 +1,14 @@
+.catalog__input-calendar {
+  width: 186px;
+  height: 30px;
+  margin: 0 13px;
+  padding: 0 0 0 44px;
+  background: url('/images/calendar_month.svg') no-repeat 16px center;
+  background-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #E5E5EA;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  cursor: pointer;
+}

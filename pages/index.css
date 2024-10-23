@@ -17,3 +17,13 @@
 @import url("../blocks/sidebar/__item/sidebar__item.css");
 @import url("../blocks/sidebar/__item/__item_select/sidebar__item_select.css");
 @import url("../blocks/sidebar/__item/__item_bold/sidebar__item_bold.css");
+
+@import url("../blocks/catalog/catalog.css");
+@import url("../blocks/catalog/__container/catalog__container.css");
+@import url("../blocks/catalog/__input-calendar/catalog__input-calendar.css");
+@import url("../blocks/catalog/__input-search/catalog__input-search.css");
+@import url("../blocks/catalog/__btn-file-format/catalog__btn-file-format.css");
+@import url("../blocks/catalog/__btn-settings/catalog__btn-settings.css");
+@import url("../blocks/catalog/__btn-sorting/catalog__btn-sorting.css");
+@import url("../blocks/catalog/__wrapper-calendar/catalog__wrapper-calendar.css");
+@import url("../blocks/catalog/__select-calendar/catalog__select-calendar.css");
